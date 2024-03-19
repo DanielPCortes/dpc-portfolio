@@ -44,7 +44,7 @@ header {
     flex-wrap: wrap;
     background-color: #f0ead6;
     padding: 8px 3%;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     color: #444444;
 }
 
@@ -106,26 +106,63 @@ section.hero-section .headshot-text h2 {
     margin-bottom: 10px;
 }
 
-/* STYLES FOR MAIN SECTION */
+/* STYLES FOR MAIN SECTIONS */
 
 main {
     padding: 0 3%;
     flex: 1;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    gap: 30px;
+    gap: 110px;
 }
 
+/* ABOUT ME STYLES */
+
+.about-me-wrapper {
+    display: flex;
+    text-align: center;
+}
+
+.about-me-wrapper p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* MY WORK STYLES*/
+.work-container {
+    display: flex;
+    margin: 0 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .project-1-wrapper {
-    max-width: 40%;
+    max-width: 100%;
+    align-self: center;
 }
 
 .project-1-wrapper a {
-    max-width: 4%;
+    max-width: 60%;
 }
 
 .project-1-wrapper h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.placeholder-1-wrapper {
+    max-width: 30%;
+}
+
+.placeholder-1-wrapper h2 {
+    text-align: center;
+}
+
+.placeholder-2-wrapper {
+    max-width: 38%;
+}
+
+.placeholder-2-wrapper h2 {
     text-align: center;
 }
 
