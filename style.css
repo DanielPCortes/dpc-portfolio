@@ -166,8 +166,66 @@ main {
     text-align: center;
 }
 
+/* CONTACT ME STYLES */
+.contact-me-wrapper {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.contact-me-wrapper p {
+    font-weight: bolder;
+}
+
+section .github-link:hover {
+    color: #000000;
+}
+
+/* FOOTER STYLE */
+
 footer {
     display: flex;
     justify-content: space-between;
     padding: 20px 3%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    header {
+        font-size: 15px;
+    }
+
+    section.hero-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.hero-section .headshot {
+        max-width: 40%;
+        margin-right: 0;
+    }
+
+    section.hero-section .headshot-text p {
+        margin-bottom: 15px;
+    }
+    
+    .project-1-wrapper h2{
+        font-size: 20px;
+    }
+
+    .placeholder-1-wrapper h2{
+        font-size: 20px;
+    }
+
+    .placeholder-2-wrapper h2{
+        font-size: 20px;
+    }
+
+    .about-me-wrapper p {
+        font-size: 20px;
+    }
+
+    .contact-me-wrapper p {
+        font-size: 18px;
+    }
+
 }
